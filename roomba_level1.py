@@ -13,7 +13,16 @@ window = room.draw_room(level = 1)
 
 ###
 # Start your code here
- 
+for i in range(2):
+ forward(160)
+ left(90)
+ forward(40)
+ left(90)
+ forward(160)
+ left(270)
+ forward(40)
+ left(270)
+forward(160)
  
  
 # End your code here
