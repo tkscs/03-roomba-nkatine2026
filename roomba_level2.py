@@ -9,14 +9,23 @@ from turtle import right, left, forward, backward, speed
 import room
 
 # Make the turtle go faster
-speed(7)
+speed(20)
 
 # Draw the Level 2 version of the room
 window = room.draw_room(level = 2)
 
 ###
 # Start your code here
- 
+for i in range(10):
+ forward(560)
+ left(90)
+ forward(40)
+ left(90)
+ forward(560)
+ right(90)
+ forward(40)
+ right(90)
+
  
  
 # End your code here
